@@ -1,0 +1,4 @@
+# 旧サイト（BiND）のアドレスから新しいページへ自動で移動させる設定
+/blog/top.html   /news.html  301
+/blog/*          /news.html  301
+/blog            /news.html  301

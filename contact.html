@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>お問い合わせ│阿久比町幼保連携型認定こども園いしざかやまこどもえん</title>
+<meta name="description" content="いしざかやまこどもえんへのお問い合わせ・見学のお申し込みはこちらから。">
+<meta property="og:title" content="お問い合わせ│阿久比町幼保連携型認定こども園いしざかやまこどもえん">
+<meta property="og:description" content="いしざかやまこどもえんへのお問い合わせ・見学のお申し込みはこちらから。">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://www.agui-nanbuhoikuen.com/img/hero.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Noto+Serif+JP:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css?v=2">
+</head>
+<body>
+<a class="skip" href="#main">本文へ移動</a>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html"><img src="img/logo.png" alt="いしざかやま こどもえん" width="1440" height="324"></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="gnav" aria-label="メニューを開く"><span></span><span></span><span></span></button>
+    <nav class="gnav" id="gnav" aria-label="メインメニュー">
+      <ul><li><a href="about.html">当園について</a></li><li><a href="service.html">園の特色</a></li><li><a href="ensha.html">園舎の紹介</a></li><li><a href="recruit.html">入園のご案内</a></li><li><a href="kosodate.html">子育て支援事業</a></li><li><a href="news.html">お知らせ</a></li><li><a class="btn-contact" href="contact.html" aria-current="page">お問い合わせ</a></li></ul>
+    </nav>
+  </div>
+</header>
+<main id="main">
+<div class="page-head"><h1>お問い合わせ</h1><p class="breadcrumb"><a href="index.html">HOME</a> ｜ お問い合わせ</p></div>
+<section class="sec" style="padding-top:20px">
+  <div class="container">
+    <div class="lead" style="margin-bottom:50px">
+      <p>見学のご予約、入園や採用に関するご質問など、お気軽にお問い合わせください。<br>お急ぎの場合はお電話でご連絡ください。</p>
+      <p style="font-size:24px;font-family:var(--latin);letter-spacing:.08em;margin:0"><a href="tel:0569486603" style="text-decoration:none">TEL 0569-48-6603</a></p>
+          </div>
+
+    <form class="form" id="contact-form" novalidate>
+      <div class="form-msg" id="form-msg" role="status" aria-live="polite"></div>
+      <input type="hidden" name="_subject" value="【ホームページ】お問い合わせがありました">
+
+      <fieldset>
+        <legend>お問い合わせの種類<span class="req">必須</span></legend>
+        <div class="radios">
+          <label><input type="radio" name="種類" value="見学の申し込み" required checked> 見学の申し込み</label>
+          <label><input type="radio" name="種類" value="入園について"> 入園について</label>
+          <label><input type="radio" name="種類" value="採用について"> 採用について</label>
+          <label><input type="radio" name="種類" value="その他"> その他</label>
+        </div>
+      </fieldset>
+
+      <div class="field"><label for="f-name">お名前<span class="req">必須</span></label>
+        <input type="text" id="f-name" name="お名前" autocomplete="name" required placeholder="例）阿久比 花子"></div>
+      <div class="field"><label for="f-kana">ふりがな<span class="opt">任意</span></label>
+        <input type="text" id="f-kana" name="ふりがな" placeholder="例）あぐい はなこ"></div>
+      <div class="field"><label for="f-email">メールアドレス<span class="req">必須</span></label>
+        <input type="email" id="f-email" name="email" autocomplete="email" inputmode="email" required placeholder="例）example@mail.com"></div>
+      <div class="field"><label for="f-tel">電話番号<span class="opt">任意</span></label>
+        <input type="tel" id="f-tel" name="電話番号" autocomplete="tel" inputmode="tel" placeholder="例）090-1234-5678"></div>
+      <div class="field" id="f-child-wrap"><label for="f-child">お子さんの生年月日・年齢<span class="opt">任意</span></label>
+        <input type="text" id="f-child" name="お子さんの生年月日・年齢" placeholder="例）令和5年6月生まれ／2歳"></div>
+      <div class="field"><label for="f-msg">お問い合わせ内容<span class="req">必須</span></label>
+        <textarea id="f-msg" name="お問い合わせ内容" required placeholder="見学をご希望の場合は、ご都合のよい日時をいくつかお書きください。"></textarea></div>
+
+      <div class="hp" aria-hidden="true"><label>空欄のままにしてください<input type="text" name="_gotcha" tabindex="-1" autocomplete="off"></label></div>
+
+      <div class="agree">
+        いただいた個人情報は、お問い合わせへの回答のためにのみ使用し、ご本人の同意なく第三者に提供することはありません。
+        <label><input type="checkbox" name="個人情報の取り扱い" value="同意する" required> 個人情報の取り扱いに同意する</label>
+      </div>
+      <div class="submit"><button type="submit" class="btn dark">送信する</button></div>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a class="logo" href="index.html"><img src="img/logo.png" alt="いしざかやま こどもえん" width="1440" height="324"></a>
+      <address>
+        幼保連携型認定こども園 いしざかやまこどもえん<br>
+        愛知県知多郡阿久比町植大石坂37<br>
+        TEL <a href="tel:0569486603">0569-48-6603</a>
+      </address>
+    </div>
+    <nav class="fnav" aria-label="フッターメニュー"><ul><li><a href="index.html">トップ</a></li><li><a href="about.html">当園について</a></li><li><a href="service.html">園の特色</a></li><li><a href="ensha.html">園舎の紹介</a></li><li><a href="recruit.html">入園のご案内</a></li><li><a href="kosodate.html">子育て支援事業</a></li><li><a href="news.html">お知らせ</a></li><li><a href="contact.html">お問い合わせ</a></li></ul></nav>
+  </div>
+  <p class="copyright">Copyright &copy; ISHIZAKAYAMA Kindergarten. All Rights Reserved.</p>
+</footer>
+
+<script src="js/main.js?v=2"></script>
+</body>
+</html>
